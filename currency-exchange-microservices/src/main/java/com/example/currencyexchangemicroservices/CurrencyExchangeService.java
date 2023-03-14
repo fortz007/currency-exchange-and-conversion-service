@@ -11,6 +11,7 @@ import java.util.Objects;
 public class CurrencyExchangeService {
 
     private final Environment environment;
+    private final ExchangeValueRepository exchangeValueRepository;
 
     public ExchangeValue retrieveExchangeValue(String initialCurrency, String finalCurrency){
 
@@ -36,6 +37,9 @@ public class CurrencyExchangeService {
                 .conversionMultiple(conversionMultiple)
                 .port(Integer.parseInt(Objects.requireNonNull(environment.getProperty("local.server.port"),"String parameter must not be null")))
                 .build();
+
+        exchangeValueRepository.save(exchangeValue);
+
 
         return  exchangeValue;
     }
