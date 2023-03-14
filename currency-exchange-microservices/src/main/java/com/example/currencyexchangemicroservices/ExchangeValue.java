@@ -1,11 +1,7 @@
 package com.example.currencyexchangemicroservices;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
@@ -13,6 +9,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Table(name = "Exchange_Value")
 @Entity
+@Builder
 public class ExchangeValue {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -23,7 +20,7 @@ public class ExchangeValue {
     @Column(name = "currency_to")
     private String toCurrency;
     @Column(name = "conversion_multiple")
-    private Integer conversionMultiple;
+    private Double conversionMultiple;
     @Column(name = "port")
     private Integer port;
 
