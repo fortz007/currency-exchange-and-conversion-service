@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/currency-conversion-microservices/currency-conversion-microservices.iml" filepath="$PROJECT_DIR$/currency-conversion-microservices/currency-conversion-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/currency-exchange-and-conversion-service.iml" filepath="$PROJECT_DIR$/.idea/currency-exchange-and-conversion-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/currency-exchange-microservices/currency-exchange-microservices.iml" filepath="$PROJECT_DIR$/currency-exchange-microservices/currency-exchange-microservices.iml" />
+    </modules>
+  </component>
+</project>
