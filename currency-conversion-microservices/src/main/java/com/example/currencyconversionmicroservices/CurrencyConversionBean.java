@@ -1,12 +1,11 @@
 package com.example.currencyconversionmicroservices;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
-@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class CurrencyConversionBean {
     private Long id;
     private String from;
