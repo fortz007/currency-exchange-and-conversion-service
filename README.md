@@ -9,3 +9,4 @@ Maven 3.6 or higher
 - Select the currency you wish to convert to in the http link.
 - Enter the amount of currency you wish to convert in the http link.
 - Click enter
+<img src="https://user-images.githubusercontent.com/112858520/225304508-3aa03de3-bdac-4062-b058-91512c1905f8.jpeg" width="300px" height="200px">
