@@ -10,8 +10,8 @@ public class CurrencyConversionBean {
     private Long id;
     private String from;
     private String to;
-    private Integer conversionMultiple;
+    private Double conversionMultiple;
     private Integer quantity;
-    private Integer totalCalculatedAmount;
+    private Double totalCalculatedAmount;
     private Integer port;
 }
